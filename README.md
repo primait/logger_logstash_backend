@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/marcelog/logger_logstash_backend.svg)](https://travis-ci.org/marcelog/logger_logstash_backend)
-
 LoggerLogstashBackend
 =====================
 
@@ -42,7 +40,7 @@ To use it in your Mix projects, first add it as a dependency:
 
 ```elixir
 def deps do
-  [{:logger_logstash_backend, "~> 3.0.0"}]
+  [{:prima_logger_logstash_backend, "~> 3.0.0"}]
 end
 ```
 Then run mix deps.get to install it.
