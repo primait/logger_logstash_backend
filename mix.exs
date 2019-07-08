@@ -6,7 +6,7 @@ defmodule LoggerLogstashBackend.Mixfile do
       app: :prima_logger_logstash_backend,
       name: "prima_logger_logstash_backend",
       source_url: "https://github.com/primait/logger_logstash_backend",
-      version: "1.1.0",
+      version: "1.1.1",
       description: description(),
       package: package(),
       deps: deps()
