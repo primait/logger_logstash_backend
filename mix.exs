@@ -6,7 +6,7 @@ defmodule LoggerLogstashBackend.Mixfile do
       app: :prima_logger_logstash_backend,
       name: "prima_logger_logstash_backend",
       source_url: "https://github.com/primait/logger_logstash_backend",
-      version: "1.0.0",
+      version: "1.1.0",
       description: description(),
       package: package(),
       deps: deps()
@@ -21,8 +21,9 @@ defmodule LoggerLogstashBackend.Mixfile do
     [
       {:earmark, "~> 1.3", only: :dev},
       {:ex_doc, "~> 0.19", only: :dev},
+      {:jason, "~> 1.1"},
       {:timex, "~> 3.5"},
-      {:jason, "~> 1.1"}
+      {:tzdata, "~> 0.5.21", override: true}
     ]
   end
 
